@@ -1,0 +1,38 @@
+# 忽略所有文件
+*
+
+# 但保留以下文件
+!*.cpp
+!*.sln
+!*.vcxproj
+!*.filters
+!*.user
+!.gitignore
+
+# 忽略项目生成文件夹
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Bb]uild/
+[Bb]in/
+[Oo]bj/
+
+# 忽略 Visual Studio 特定文件夹
+.vs/
+.vscode/
+
+# 忽略临时文件
+*.tmp
+*.log
+*.cache
+*.diff
+*.patch
+
+# 忽略系统文件
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
